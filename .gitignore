@@ -1,0 +1,19 @@
+# 안내서 PDF — 저장소가 공개라 넣지 않는다.
+# 담당자 휴대전화 번호와 지난 회차 Zoom 비밀번호가 들어 있다.
+templates/
+out/
+
+# 글꼴 — 배포 조건을 확인하기 전까지 넣지 않는다 (README 참고)
+fonts/
+.fontcache/
+
+# 발송 대상 명단 — 개인정보
+roster/
+*.xlsx
+
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
